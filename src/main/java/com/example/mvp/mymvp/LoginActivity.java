@@ -58,4 +58,10 @@ public class LoginActivity extends AppCompatActivity implements SampleContract.V
     public void errorGetSample(String msg) {
         //错误信息
     }
+
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
 }
