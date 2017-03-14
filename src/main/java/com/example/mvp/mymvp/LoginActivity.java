@@ -64,4 +64,14 @@ public class LoginActivity extends AppCompatActivity implements SampleContract.V
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
     }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        //刚刚将我的项目上传到github上成功，更新一下代码，看一下本地git和github的联系
+
+    }
 }
+
+
