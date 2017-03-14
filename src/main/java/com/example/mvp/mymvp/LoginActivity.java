@@ -72,6 +72,12 @@ public class LoginActivity extends AppCompatActivity implements SampleContract.V
         //刚刚将我的项目上传到github上成功，更新一下代码，看一下本地git和github的联系
 
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //哈哈，再测一次
+    }
 }
 
 
