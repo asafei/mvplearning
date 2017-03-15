@@ -77,6 +77,7 @@ public class LoginActivity extends AppCompatActivity implements SampleContract.V
     protected void onStop() {
         super.onStop();
         //哈哈，再测一次
+
     }
 }
 
